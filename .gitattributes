@@ -1,0 +1,2 @@
+EX2 filter=lfs diff=lfs merge=lfs -text
+Ex1 filter=lfs diff=lfs merge=lfs -text
