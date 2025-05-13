@@ -24,11 +24,11 @@ pip install torch torchvision matplotlib
 cd assignment-1-image-classification-by-using-deep-models-Kokeip
 ```
 2. Prepare the Dataset
-   - Place the Flower Dataset in EX2/flower_dataset/
+   - Place the Flower Dataset in `EX2/flower_dataset/`
 3. Run the Experiments
 ```bash
 python model_comparison.py
 ```
-- The script will train each model for 25 epochs, save the best weights in Ex2/work_dir/, and generate loss and accuracy plots.
+- The script will train each model for 25 epochs, save the best weights in `Ex2/work_dir/`, and generate loss and accuracy plots.
 ## Results
-  
+  ![figure1](Ex2/train_acc.png "train_acc")
