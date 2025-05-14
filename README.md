@@ -1,5 +1,5 @@
 # Flower Classification Experiment
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)]([http://colab.research.google.com/github/LTH14/fractalgen/blob/main/demo/run_fractalgen.ipynb](https://colab.research.google.com/drive/1IcrSSyGDPdUoGuDQ97zpeM-DMxam5wOw?usp=sharing))
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IcrSSyGDPdUoGuDQ97zpeM-DMxam5wOw?usp=sharing)
 
 ## Overview
 This repository contains the code for a flower classification project using deep learning models, conducted as part of the SYSUSZ ECE371 assignment. The project focuses on classifying a dataset of flower images into five categories, exploring the impact of network depth and model architecture on classification performance. Two experiments were performed: the first assesses ResNet models with varying depths (ResNet18, ResNet34, ResNet50, ResNet101, ResNet152), and the second compares six architectures (ResNet101, DenseNet121, EfficientNet-B0, ViT-B-16, Swin-T, ConvNeXt-Tiny). Key findings include ResNet101 achieving a validation accuracy of 0.920, with deeper models showing overfitting, while ConvNeXt-Tiny excelled with a validation accuracy of 0.9474.
